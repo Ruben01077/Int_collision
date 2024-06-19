@@ -1,6 +1,6 @@
 .body{
     height: 180vh;
-    color: red;
+   
 
 }
 
@@ -9,9 +9,7 @@
     height: 100%;
     opacity: 70%;
     object-fit: cover;
-   
 
-  
 }
 
 .welcome_div {

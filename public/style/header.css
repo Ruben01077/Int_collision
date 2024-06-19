@@ -18,12 +18,19 @@ body{
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    z-index: 100;
 
     
   
 }
+.info_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 ul{
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     gap: 1.5rem;
     font-size: 1.5rem;
@@ -34,6 +41,7 @@ ul{
 li{
     list-style: none;
     transition: 0.3s;
+    text-transform: uppercase;
 }
 
 
@@ -103,6 +111,7 @@ font-size: 1.3rem;
 .info_div{
     display: flex;
     flex-direction: row;
+    
 }
 
 .social_media_icon img{
