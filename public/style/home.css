@@ -4,4 +4,38 @@
 
 }
 
+.welcome_div img{
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    object-fit: cover;
+   
 
+  
+}
+
+.welcome_div {
+    position: relative;
+    z-index: -1;
+    margin: 0;
+}
+
+.welcome_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: text_animation 3s forwards;
+}
+
+@keyframes text_animation {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
