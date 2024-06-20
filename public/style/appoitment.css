@@ -144,3 +144,11 @@ label.light {
 
 /* Appoitment FORM End >>>>   */
 
+@media (max-width: 900px) {
+
+  .app_header{
+ 
+   font-size: 1.2rem;
+ 
+  }
+   }

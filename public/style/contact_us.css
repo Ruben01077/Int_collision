@@ -45,6 +45,7 @@ iframe{
 
     border-radius: 20px;
     width: 100%;
+    height: 550px;
     margin: 10px;
     box-shadow: 2px 2px 20px black;
 }
@@ -183,3 +184,20 @@ label.light {
 }
 
 /* CONTACT FORM End >>>>   */
+
+
+
+@media (max-width: 900px) {
+
+  iframe{
+
+    height: 350px;
+  
+}
+
+ .contact_us_title{
+
+  font-size: 2rem;
+
+ }
+  }
