@@ -15,14 +15,7 @@
    
     
 }
-.d-flex {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex;
-    justify-content: right;
-   
-  
-  }
+
 
 
 .contact_us_title{
@@ -50,8 +43,10 @@
 
 iframe{
 
-   
+    border-radius: 20px;
     width: 100%;
+    margin: 10px;
+    box-shadow: 2px 2px 20px black;
 }
 
 
