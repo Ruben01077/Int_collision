@@ -18,6 +18,7 @@
 
 
 
+
 .contact_us_title{
     width: 100%;
     display: flex;
@@ -41,7 +42,7 @@
 
 }
 
-iframe{
+.google_map{
 
     border-radius: 20px;
     width: 100%;
@@ -168,6 +169,10 @@ label.light {
   border-radius: 100%;
 }
 
+.new_contact_form{
+  height: 100%;
+}
+
 
 
   form {
@@ -200,4 +205,10 @@ label.light {
   font-size: 2rem;
 
  }
+
+ .contact_form{
+  width: 200px;
+ }
+
+
   }

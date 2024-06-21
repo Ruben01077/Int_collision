@@ -2,72 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style/contact_us.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-    
-    
-	
-	
-    <title>Document</title>
+
+  <link rel="stylesheet" href="style/contact_us.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+
+
+
+  <title>Document</title>
 </head>
 <%- include("partials/header.ejs") %>
 
-    <div class="body">
-        <div class="contact_us_title">
-            CONTACT US
+  <div class="body">
+    <!-- <div class="contact_us_title">
+      CONTACT US
 
-        </div>
-     
-        <div class="map_and_info_div">
-            <div class="map_div">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13150.308514713155!2d-118.49416317366638!3d34.19948660556068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c297587fe87325%3A0x505a04ebe7d2b02c!2s7049%20Valjean%20Ave%2C%20Van%20Nuys%2C%20CA%2091406!5e0!3m2!1sen!2sus!4v1718759710538!5m2!1sen!2sus"
-                      style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="contact_info_div">
-                <div id="container">
-                    <!--This is a division tag for body container-->
-                    <div id="body_header">
-                      <!--This is a division tag for body header-->
-                    
-                
-                    </div>
-                    <form action="https://formspree.io/f/movaaabr" method="post">
+    </div> -->
+
+    <div class="map_and_info_div">
+      
+      <div class="contact_info_div">
+        <div id="container">
+          <!--This is a division tag for body container-->
+          <div id="body_header">
+            <!--This is a division tag for body header-->
+
+
+          </div>
+          <!-- <form action="https://formspree.io/f/movaaabr" method="post"> -->
+          <!-- <form action="https://form.jotform.com/241715382649160" method="post">
+            <fieldset>
+              <legend><span class="number">1</span>Your basic details</legend>
+              <label for="full_name">Full name<span class="red_asterics">*</span> :</label>
+              <input type="text" id="full_name" name="Full_name" placeholder="Full name" required>
+
+              <label for="mail">Email<span class="red_asterics">*</span>:</label>
+              <input type="email" id="mail" name="Email" placeholder="abc@xyz.com" required>
+
+              <label for="tel">Contact Number<span class="red_asterics">*</span>:</label>
+              <input type="tel" id="tel" placeholder="Include country code" name="Phone_number" required>
+
+              <label for="image">Image:</label>
+              <input type="file" id="image" name="Picture">
+            </fieldset>
+            <button class="submit_btn" type="submit">Submit</button>
+          </form> -->
+
+
+         
+    
+          <iframe class="contact_form"
+          id="JotFormIFrame-241716358396163"
+          title="Contact Us Form"
+          onload="window.parent.scrollTo(0,0)"
+          allowtransparency="true"
+          allow="geolocation; microphone; camera; fullscreen"
+          src="https://form.jotform.com/241716358396163"
+          frameborder="0"
+          style="width:100%;height:539px;border:none;"
+          scrolling="no"
+        >
+        </iframe>
+        
   
-                      <fieldset>
-                        <legend><span class="number">1</span>Your basic details</legend>
-                        <label for="full_name">Full name<span class="red_asterics">*</span> :</label>
-                        <input type="text" id="full_name" name="Full_name" placeholder="Full name" required >
-                
-                        <label for="mail">Email<span class="red_asterics">*</span>:</label>
-                        <input type="email" id="mail" name="Email" placeholder="abc@xyz.com" required>
-                
-                        <label for="tel">Contact Number<span class="red_asterics">*</span>:</label>
-                        <input type="tel" id="tel" placeholder="Include country code" name="Phone_number" required>
-                
-                        <label for="skype_name">Skype username:</label>
-                        <input type="text" id="skype_name" name="skype_name" placeholder="@atchyutn" pattern="[a-zA-Z0-9]+">
-                      </fieldset>
-                      <button class="submit_btn" type="submit">Submit</button>
-                    </form>
-                  </div>
-                
-            </div>
         </div>
 
+      </div>
+      
 
-
+      </div>
+      <div class="map_div">
+        <iframe class="google_map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13150.308514713155!2d-118.49416317366638!3d34.19948660556068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c297587fe87325%3A0x505a04ebe7d2b02c!2s7049%20Valjean%20Ave%2C%20Van%20Nuys%2C%20CA%2091406!5e0!3m2!1sen!2sus!4v1718759710538!5m2!1sen!2sus"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
 
-	
 
-    <%- include("partials/footer.ejs") %>
+
+  </div>
+
+
+
+<!-- </iframe class="new_contact_form">
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241716358396163']", "https://form.jotform.com/")</script> -->
+
+
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241716358396163']", "https://form.jotform.com/")</script>
+
+
+  <%- include("partials/footer.ejs") %>
 
 </html>

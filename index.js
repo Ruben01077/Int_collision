@@ -30,15 +30,11 @@ app.get("/before_and_after", (req, res)=>{
   res.render("before_and_after.ejs")
 })
 
-app.post("/appoitment", (req, res)=>{
-    res.render("appoitment.ejs")
-  console.log(req.body)
+app.get("/estimate", (req, res)=>{
+  res.render("estimate.ejs")
 })
 
-app.post("/contact_us", (req, res)=>{
-  res.render("contact_us.ejs")
-console.log(req.body)
-})
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
