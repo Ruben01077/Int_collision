@@ -19,13 +19,13 @@ body{
     font-weight: 400;
     font-style: normal;
     z-index: 10;
-
-    
+    transition: 0.5s;
   
 }
 .info_div{
     display: flex;
     flex-wrap: wrap;
+    transition: 0.5s;
 }
 
 ul{
@@ -35,6 +35,7 @@ ul{
     gap: 1.5rem;
     font-size: 1.5rem;
     margin: 0;
+    
 
 }
 
@@ -67,11 +68,13 @@ li:hover {
     margin-top: 5px;
     display: flex;
     position: relative;
+  
 
 }
 
 .logo{
     width: 16rem; 
+    transition: 0.5s;
     
 }
 
@@ -93,6 +96,7 @@ font-size: 1.3rem;
 
 .icon img {
     width: 1.1rem;
+    
 }
 
 .phone_div{
@@ -187,7 +191,7 @@ gap: 20px;
 .slide_nav{
 
     color: #F4B722;
-   
+    transition: 0.5s;
 
 }
 .slide_nav:hover{
@@ -217,6 +221,7 @@ label input{
     right: 2%;
     top: 3%;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+   
     
 
 }
@@ -250,6 +255,7 @@ label input{
     top: 18px;
     width: 35px;
     transform: rotate(-45deg);
+  
 }
 
 
@@ -283,6 +289,7 @@ input:checked ~ .slide{
 
 .menu_bar{
     display: none;
+    transition: 0.5s;
    
     
 }
