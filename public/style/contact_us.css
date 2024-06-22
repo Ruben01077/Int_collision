@@ -4,8 +4,13 @@
     padding: 0;
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    height: 2500px;
+    
+    height: 100%;
+    margin-bottom: 50px;
+    /* font-family: "Inter", sans-serif;
+    font-style: italic; */
+ 
+
  
 }
 
@@ -37,19 +42,41 @@
 
 .map_and_info_div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 
 }
 
-.google_map{
+.contact_info_div ul{
+  display: flex;
+flex-direction: column;
+}
 
-    border-radius: 20px;
-    width: 100%;
+
+
+.contact_info_div{
+  width: 100%;
+  max-width: 550px;
+  background-color: #ffffff;
+  height: 550px;
+  border-radius: 20px;
+  display: flex;
+flex-direction: column;
+  /* margin: 10px;
+  box-shadow: 2px 2px 20px black; */
+
+  
+}
+
+.google_map{
+    width: 800px;
     height: 550px;
     margin: 10px;
-    box-shadow: 2px 2px 20px black;
+    /* border-radius: 20px;
+    box-shadow: 2px 2px 20px black; */
+   
 }
 
 
@@ -195,9 +222,12 @@ label.light {
 
 @media (max-width: 900px) {
 
+
+
   iframe{
 
     height: 350px;
+    
   
 }
 
@@ -210,6 +240,24 @@ label.light {
  .contact_form{
   width: 200px;
  }
+
+ .google_map{
+
+
+  width: 350px;
+  
+}
+
+.contact_info_div{
+  padding: 20px;
+  margin-bottom: 250px;
+ 
+}
+
+.contact_info_div ul{
+
+  font-size: 20px;
+}
 
 
   }

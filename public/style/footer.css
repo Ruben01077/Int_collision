@@ -20,6 +20,11 @@ footer ul{
   
 }
 
+.address_div_footer{
+    display: flex;
+    gap: 10px;
+}
+
 .nav ul {
     gap: 15px;
 
@@ -62,6 +67,7 @@ footer h1{
         font-weight: 400;
         flex-direction: column;
         gap: 20px;
+        padding-top: 20px;
     
     }
 
@@ -72,6 +78,12 @@ footer h1{
      }
      .nav ul {
         gap: 5px;
+    }
+
+    .address_div_footer{
+        font-size: 16px;
+        display: flex;
+        gap: 10px;
     }
 
 }

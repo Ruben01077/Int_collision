@@ -17,7 +17,6 @@ body{
     top: 0;
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
-    font-style: normal;
     z-index: 10;
     transition: 0.5s;
   
@@ -37,6 +36,11 @@ ul{
     margin: 0;
     
 
+}
+
+.phone_div a{
+    text-decoration: none;
+    color: black;
 }
 
 li{
@@ -128,6 +132,18 @@ font-size: 1.3rem;
 
     width: 1.9rem;
     transition: 0.3s;
+}
+
+.social_media_icon{
+
+    width: 1.9rem;
+    transition: 0.3s;
+    
+}
+.social_media_icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social_media_icon img:hover{
