@@ -15,8 +15,12 @@ body{
     align-items: center;
     justify-content: space-evenly;
     top: 0;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
+    /* font-family: "Fugaz One", sans-serif;
+    font-weight: 400; */
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
     z-index: 10;
     transition: 0.5s;
   
@@ -137,16 +141,20 @@ font-size: 1.3rem;
 .social_media_icon{
 
     width: 1.9rem;
-    transition: 0.3s;
+    
+  
     
 }
 .social_media_icon a{
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-.social_media_icon img:hover{
+.social_media_icon a:hover{
 
     scale: 1.2;
 }
@@ -165,9 +173,10 @@ font-size: 1.3rem;
     height: 100%;
     position: absolute;
     right: 0%;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
     transform: translateX(0px);
     background-color: #000000d8;
     z-index: 9;

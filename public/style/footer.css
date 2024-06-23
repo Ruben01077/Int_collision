@@ -1,4 +1,4 @@
-footer{
+footer {
     background-color: black;
     color: white;
     font-size: 1rem;
@@ -6,21 +6,25 @@ footer{
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
     flex-direction: column;
     gap: 10px;
 
 }
 
-footer ul{
-   font-size: 20px;
-   transition: 0.5s;
-  
+footer ul {
+    font-size: 20px;
+    transition: 0.5s;
+
 }
 
-.address_div_footer{
+.address_div_footer {
     display: flex;
     gap: 10px;
 }
@@ -30,31 +34,38 @@ footer ul{
 
 }
 
-footer h1{
+.visa {
+    width: 100px;
+}
+
+footer h1 {
 
     margin: 0;
 }
 
-.fa-instagram, .fa-facebook, .fa-youtube{
+.fa-instagram,
+.fa-facebook,
+.fa-youtube {
     font-size: 30px;
 }
 
-.copyright_p a{
+.copyright_p a {
     list-style: none;
     text-decoration: none;
     color: white;
-   
+
 
 }
+
 .copyright_p {
-   font-size: 20px;
-   font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 @media (max-width: 1050px) {
 
-    footer{
+    footer {
         background-color: black;
         color: white;
         font-size: 1rem;
@@ -62,25 +73,28 @@ footer h1{
         position: relative;
         justify-content: center;
         align-items: center;
-        height: 350px;
-        font-family: "Fugaz One", sans-serif;
-        font-weight: 400;
+        height: 450px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: italic;
         flex-direction: column;
         gap: 20px;
         padding-top: 20px;
-    
+
     }
 
     .copyright_p {
         font-size: 10px;
-   
-     
-     }
-     .nav ul {
+
+
+    }
+
+    .nav ul {
         gap: 5px;
     }
 
-    .address_div_footer{
+    .address_div_footer {
         font-size: 16px;
         display: flex;
         gap: 10px;
