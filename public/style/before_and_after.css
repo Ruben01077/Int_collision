@@ -1,13 +1,28 @@
 .body{
     margin-top: 20px;
-    height: 2500px;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.all_box{
+  margin: 10px;
+  box-shadow: 2px 2px 20px black ;
+  border-radius: 10px;
 }
 
-div#box1 { 
+
+.title{
+  font-size: 25px;
+}
+
+#box1, #box2, #box3, #box4 { 
   width: 60vw;
   height: 60vw;
   max-width: 700px;
@@ -15,7 +30,35 @@ div#box1 {
   overflow: hidden; 
 }
 
-div#box1 figure { 
+#box1 figure > img, #box2 figure > img, #box3 figure > img, #box4 figure > img { 
+  position: relative;
+  width: 100%;
+}
+
+#box1 figure { 
+  background-image: url("/images/2.1.png"); 
+  background-size: cover;
+  position: relative;
+  font-size: 0;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+#box1 figure div { 
+  background-image: url("/images/2.2.png");
+  background-size: cover;
+  position: absolute;
+  width: 50%; 
+  box-shadow: 0 5px 10px -2px rgb(0, 0, 0);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+}
+/* ________________ */
+
+
+#box2 figure { 
   background-image: url("/images/1.png"); 
   background-size: cover;
   position: relative;
@@ -24,11 +67,8 @@ div#box1 figure {
   height: 100%;
   margin: 0; 
 }
-div#box1 figure > img { 
-  position: relative;
-  width: 100%;
-}
-div#box1 figure div { 
+
+#box2 figure div { 
   background-image: url("/images/2.png");
   background-size: cover;
   position: absolute;
@@ -38,6 +78,55 @@ div#box1 figure div {
   bottom: 0;
   height: 100%;
 }
+
+/* ________________ */
+
+
+#box3 figure { 
+  background-image: url("/images/3.2.png"); 
+  background-size: cover;
+  position: relative;
+  font-size: 0;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+#box3 figure div { 
+  background-image: url("/images/3.1.png");
+  background-size: cover;
+  position: absolute;
+  width: 50%; 
+  box-shadow: 0 5px 10px -2px rgb(0, 0, 0);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+}
+
+
+/* ________________ */
+
+#box4 figure { 
+  background-image: url("/images/4.2.png"); 
+  background-size: cover;
+  position: relative;
+  font-size: 0;
+  width: 100%; 
+  height: 100%;
+  margin: 0; 
+}
+
+#box4 figure div { 
+  background-image: url("/images/4.1.png");
+  background-size: cover;
+  position: absolute;
+  width: 50%; 
+  box-shadow: 0 5px 10px -2px rgb(0, 0, 0);
+  overflow: hidden;
+  bottom: 0;
+  height: 100%;
+}
+/* ________________ */
 
 input[type=range]{
   -webkit-appearance:none;
@@ -96,5 +185,12 @@ input[type=range]:focus::-moz-range-thumb {
 
 
 
+   @media (max-width: 750px) {
 
+    .title{
+      font-size: 15px;
+    }
+  
+  }
 
+ 

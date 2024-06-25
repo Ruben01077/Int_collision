@@ -29,6 +29,15 @@ footer ul {
     gap: 10px;
 }
 
+.footer_social_div{
+     
+    display: flex;
+    gap: 20px;
+       
+
+}
+
+
 .nav ul {
     gap: 15px;
 
@@ -53,14 +62,15 @@ footer h1 {
     list-style: none;
     text-decoration: none;
     color: white;
+   
 
 
 }
 
 .copyright_p {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 
+    font-style: normal;
+    font-weight: normal;
 }
 
 @media (max-width: 1050px) {
@@ -86,7 +96,7 @@ footer h1 {
 
     .copyright_p {
         font-size: 10px;
-
+     
 
     }
 
@@ -99,5 +109,8 @@ footer h1 {
         display: flex;
         gap: 10px;
     }
+
+  
+
 
 }

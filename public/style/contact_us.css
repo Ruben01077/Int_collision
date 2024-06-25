@@ -51,6 +51,11 @@
 
 }
 
+.business_hours{
+ text-align: center;
+ 
+}
+
 .contact_info_div ul{
   display: flex;
 flex-direction: column;
@@ -115,6 +120,8 @@ flex-direction: column;
   width: 350px;
   
 }
+
+
 
 .contact_info_div{
   padding: 20px;
